@@ -8,7 +8,7 @@ def pretty_print_nds(nds)
   pp nds 
   # Change the code below to pretty print the nds with pp
 end
-pp directors_database
+
 def print_first_directors_movie_title
   pp directors_database
   
