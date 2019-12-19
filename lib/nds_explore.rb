@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
  
    array_index = 0 
   while array_index < directors_database[0][:movies].count do 
-   pp directors_database[0][:movies][array_index][:title].to_s
+   pp directors_database[0][:movies][array_index][:title].gsub!('"','')
     array_index += 1 
   end 
 end 
