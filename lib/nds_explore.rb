@@ -10,9 +10,8 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  print directors_database[0][:movies]
   
-   spielberg_films = [] 
+ spielberg_films = [] 
    array_index = 0 
   while array_index < directors_database[0][:movies].count do 
    print directors_database[0][:movies][0]
