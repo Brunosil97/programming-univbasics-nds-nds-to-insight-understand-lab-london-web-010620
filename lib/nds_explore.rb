@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
   rtn_string = ""
    array_index = 0 
   while array_index < directors_database[0][:movies].count do 
-  rtn_string +=  directors_database[0][:movies][array_index][:title]
+  rtn_string += +" "+ directors_database[0][:movies][array_index][:title]
     array_index += 1 
   end 
   pp rtn_string
