@@ -19,6 +19,6 @@ def print_first_directors_movie_titles
     spielberg_films << directors_database[0][:movies] 
   end 
   array_index += 1 
-end    
-p directors_database[0][:movies] 
+end 
+
 
