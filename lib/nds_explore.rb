@@ -11,7 +11,6 @@ end
 
 def print_first_directors_movie_title
   directors_database[0]
-  directors_database
   
 end    
 
