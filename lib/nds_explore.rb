@@ -15,8 +15,9 @@ def print_first_directors_movie_titles
    spielberg_films = [] 
    array_index = 0 
   while array_index < directors_database[0][:movies].count do 
-    directors_database[0][:movies]
+    directors_database[0][:movies][0]
     array_index += 1 
+  end 
 end 
 
 
